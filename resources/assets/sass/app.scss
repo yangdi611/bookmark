@@ -21,6 +21,7 @@ textarea {
 
 .jumbotron {
   text-align: center;
+  margin-top: 15px;
 }
 
 /* typography */
@@ -74,6 +75,13 @@ header {
   }
 }
 
+#logout {
+  cursor: default;
+  &:hover {
+    background-color: transparent;
+  }
+}
+
 /* footer */
 footer {
   margin-top: 45px;
@@ -114,6 +122,7 @@ footer {
   }
 }
 
+/* users */
 
 aside {
   section {
@@ -167,4 +176,10 @@ input {
 
 .card{
   margin-top: 3em;
+}
+
+/* messages */
+
+.alert{
+  margin-top: 1em;
 }

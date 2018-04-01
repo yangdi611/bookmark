@@ -10010,6 +10010,7 @@ textarea {
 
 .jumbotron {
   text-align: center;
+  margin-top: 15px;
 }
 
 /* typography */
@@ -10068,6 +10069,14 @@ header a:hover {
   color: #f8f8ff;
 }
 
+#logout {
+  cursor: default;
+}
+
+#logout:hover {
+  background-color: transparent;
+}
+
 /* footer */
 
 footer {
@@ -10108,6 +10117,8 @@ footer .slogon {
   font-size: 13px;
   font-weight: bold;
 }
+
+/* users */
 
 aside section {
   padding: 10px 0;
@@ -10166,5 +10177,11 @@ input {
 
 .card {
   margin-top: 3em;
+}
+
+/* messages */
+
+.alert {
+  margin-top: 1em;
 }
 
