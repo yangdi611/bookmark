@@ -183,3 +183,41 @@ input {
 .alert{
   margin-top: 1em;
 }
+
+
+/* User Edit */
+.gravatar_edit {
+  margin: 15px auto;
+  text-align: center;
+  .gravatar {
+    float: none;
+    max-width: 80px;
+  }
+}
+
+/* Users index */
+
+.users {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  li {
+    overflow: auto;
+    padding: 10px;
+    border-bottom: 1px solid;
+    color: #e0e0e0;
+  }
+}
+
+.pagination {
+  margin-top: 1em;
+  .page-link {
+    color:#4682b4
+  }
+}
+
+.delete-btn {
+  float: right;
+  position: relative;
+  right: 0;
+}
